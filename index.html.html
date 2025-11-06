@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Content Writing Service</title>
+  <link rel="stylesheet" href="assignmentt.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 tabindex="0">SEO Content Writing</h1>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#services" tabindex="0">Services</a></li>
+          <li><a href="#about" tabindex="0">About</a></li>
+          <li><a href="#contact" tabindex="0">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="container">
+      <article>
+        <h2 tabindex="0">Boost Your Website's Ranking with Quality SEO Content</h2>
+        <p tabindex="0">
+          Professional SEO content writing tailored to drive organic traffic and increase conversions.
+        </p>
+        <button class="btn-primary" aria-label="Learn more about SEO Content Writing">Learn More</button>
+      </article>
+      <figure>
+        <img src="C:\Users\l252591\Downloads\A2.png" alt="Illustration representing SEO content writing" />
+      </figure>
+    </section>
+
+    <section id="services" class="container" tabindex="0">
+      <h2>Our Key Services</h2>
+      <div class="services-list">
+        <article class="service-card">
+          <h3>Website Content</h3>
+          <p>Engaging, optimized content that targets your audience and improves page ranking.</p>
+          <input type="checkbox" id="service1" class="checkbox-toggle" />
+          <label for="service1" class="toggle-label">Select Service</label>
+        </article>
+
+        <article class="service-card">
+          <h3>Blog Posts</h3>
+          <p>Regular, SEO-friendly blog content that keeps your site fresh and relevant.</p>
+          <input type="checkbox" id="service2" class="checkbox-toggle" />
+          <label for="service2" class="toggle-label">Select Service</label>
+        </article>
+
+        <article class="service-card">
+          <h3>Product Descriptions</h3>
+          <p>Optimized descriptions that convert browsers into buyers.</p>
+          <input type="checkbox" id="service3" class="checkbox-toggle" />
+          <label for="service3" class="toggle-label">Select Service</label>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container" tabindex="0">
+      <h2>About Us</h2>
+      <p>
+        We specialize in creating SEO content that blends creativity with keyword strategy,
+        designed to support your online business growth.
+      </p>
+      <article class="interactive-card">
+        <input type="checkbox" id="toggle-about" class="checkbox-toggle" />
+        <label for="toggle-about" class="toggle-label btn-secondary" aria-expanded="false" aria-controls="more-about">
+          Learn More
+        </label>
+        <div id="more-about" class="toggle-content" aria-hidden="true">
+          <p>
+            Our team consists of expert writers and SEO strategists who personalize content for each industry.
+            We focus on measurable results and consistent quality.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="container">
+      <h2 tabindex="0">Get In Touch</h2>
+      <form action="#" method="POST" novalidate aria-labelledby="contact">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+        </fieldset>
+
+        <fieldset>
+          <legend>Services Interested In (Select all that apply):</legend>
+          <label><input type="checkbox" name="interest" value="website-content" /> Website Content</label>
+          <label><input type="checkbox" name="interest" value="blog-posts" /> Blog Posts</label>
+          <label><input type="checkbox" name="interest" value="product-descriptions" /> Product Descriptions</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferred Plan</legend>
+          <label><input type="radio" name="plan" value="basic" required /> Basic</label>
+          <label><input type="radio" name="plan" value="premium" /> Premium</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>How did you hear about us?</legend>
+          <select name="referral" id="referral" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="search-engine">Search Engine</option>
+            <option value="social-media">Social Media</option>
+            <option value="friend">Friend</option>
+            <option value="advertisement">Advertisement</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Information:</legend>
+          <label for="message" class="visually-hidden">Additional information or questions</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your questions or details here..."></textarea>
+        </fieldset>
+
+        <button type="submit" class="btn-primary" aria-label="Submit your inquiry form">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p tabindex="0">&copy; 2025 SEO Content Writing. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
